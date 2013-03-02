@@ -1,11 +1,14 @@
-scala-min
+
+
+travix : [![Build Status](https://travis-ci.org/katoy/scala_rational.png)](https://travis-ci.org/katoy/scala_rational) 
+
+scala-rational
 =========
 
-A minimal project template to start programming with Scala.
 
 ### Contents
 
-scala-min project includes:
+scala-rational project includes:
 - Sample Scala codes.
 - [ScalaTest](http://www.scalatest.org/) examples
 - Pre-configured settings for developing with IntelliJ IDE
@@ -18,36 +21,36 @@ Download tar.gz archive of this project, then extract the contents:
 
 **Run tests**
 
-    $ bin/sbt test
+    $ sbt test
 
 **Run tests when updates of source codes are detected**
    
-    $ bin/sbt "~test"
+    $ sbt "~test"
 
 **Run specific tests maching a pattern**
 
-    $ bin/sbt "~test-only *HelloTest"
+    $ sbt "~test-only *HelloTest"
 
 **Run tagged test only**
 
-    $ bin/sbt "~test -- include(test1)"
+    $ sbt "~test -- include(test1)"
 
 **Create a runnable package**
   
-    $ bin/sbt pack
+    $ sbt pack
     $ target/pack/bin/hello
     Hello World!!
 
 **Install your program**
 
-    $ bin/sbt pack
+    $ sbt pack
     $ cd target/pack; make install
     $ ~/local/bin/hello
     Hello World!!
 
 **Create IntelliJ project files**
 
-    $ bin/sbt gen-idea
+    $ sbt gen-idea
 
 **Add dendent libraries**
 
