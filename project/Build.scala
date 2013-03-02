@@ -10,7 +10,9 @@ object Build extends sbt.Build {
 
     settings = Defaults.defaultSettings ++ packSettings ++
       Seq(
-        scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+        //scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+	scalacOptions ++= Seq("-unchecked", "-deprecation"),
+
         // Mapping from program name -> Main class
         packMain := Map("rational" -> "rational.Main"),
         // custom settings here
