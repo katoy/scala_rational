@@ -10,27 +10,26 @@ This is a rational library for scala.
 これは 分数、循環小数を扱える scala ライブラリーです。
 
 このライブラリーでは 循環小数の循環部を {, } で囲んで表現します。
+
 例： 0.33333...   -> 0.{3}
 
 scala コード中では次のようなに記述します。
-Rational(n)    -> 整数のｎと同等です。 (n は整数)
-Rational(n, m) -> 分数 n / m と藤堂です。 (ｎは整数、 m は 0 以外の整数)
-Rational("0.3") -> 小数 0.3 と同等です。
-Rational("0.{3}") -> 循環小数 0.33333... と同等です。
-Rational(1,3) と Rational("0.{3}") は同等です。
+- Rational(n)    -> 整数のｎと同等です。 (n は整数)
+- Rational(n, m) -> 分数 n / m と藤堂です。 (ｎは整数、 m は 0 以外の整数)
+- Rational("0.3") -> 小数 0.3 と同等です。
+- Rational("0.{3}") -> 循環小数 0.33333... と同等です。
+- Rational(1,3) と Rational("0.{3}") は同等です。
 
 Rational は 四則演算、比較が可能です。
-
-Rational(1, 2) + Rational(1, 3)  -> Rationa(5, 6), 0.8333333.... と同等です。
-Rational(1, 2) - Rational(1, 3)　-> Rational(1, 6), 0.166666... と同等です。
-Rational(1, 2) * Rational(1, 3)　-> Rational(1, 6), と同等です。
-Rational(1, 2) . Rational(1, 3)　-> Rationa(3, 2), 1.5 と同等です。
-
-Rational(1, 3) == Rational(2, 6)
-Rational(1, 2) > Rational(1, 3)
-Rational(1, 3) == Rational("0.{3}")
-Rational(1) == Rational("0.{9}")
-Rational(1, 3) != Rational("0.3333333333333333333")
+- Rational(1, 2) + Rational(1, 3)  -> Rationa(5, 6), 0.8333333.... と同等です。
+- Rational(1, 2) - Rational(1, 3)　-> Rational(1, 6), 0.166666... と同等です。
+- Rational(1, 2) * Rational(1, 3)　-> Rational(1, 6), と同等です。
+- Rational(1, 2) . Rational(1, 3)　-> Rationa(3, 2), 1.5 と同等です。
+- Rational(1, 3) == Rational(2, 6)
+- Rational(1, 2) > Rational(1, 3)
+- Rational(1, 3) == Rational("0.{3}")
+- Rational(1) == Rational("0.{9}")
+- Rational(1, 3) != Rational("0.3333333333333333333")
 
 src/main/scala/Main.scala や src/test/scala/RationalTest.scala  を参照してください。
 
