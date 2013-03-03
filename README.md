@@ -7,6 +7,10 @@ scala-rational
 
 This is a rational library for scala.
 
+- Copy from [http://sourceforge.jp/projects/ruby-xbrl/svn/view/trunk/ScalaApplication1/src/rational/](http://sourceforge.jp/projects/ruby-xbrl/svn/view/trunk/ScalaApplication1/src/rational/)
+- See also [http://youichi-kato.cocolog-nifty.com/blog/2009/12/scala-6e3c.html](http://youichi-kato.cocolog-nifty.com/blog/2009/12/scala-6e3c.html)
+
+
 これは 分数、循環小数を扱える scala ライブラリーです。
 
 このライブラリーでは 循環小数の循環部を {, } で囲んで表現します。
@@ -24,7 +28,7 @@ Rational は 四則演算、比較が可能です。
 - Rational(1, 2) + Rational(1, 3)  -> Rationa(5, 6), 0.8333333.... と同等です。
 - Rational(1, 2) - Rational(1, 3)　-> Rational(1, 6), 0.166666... と同等です。
 - Rational(1, 2) * Rational(1, 3)　-> Rational(1, 6), と同等です。
-- Rational(1, 2) . Rational(1, 3)　-> Rationa(3, 2), 1.5 と同等です。
+- Rational(1, 2) / Rational(1, 3)　-> Rationa(3, 2), 1.5 と同等です。
 - Rational(1, 3) == Rational(2, 6)
 - Rational(1, 2) > Rational(1, 3)
 - Rational(1, 3) == Rational("0.{3}")
@@ -94,5 +98,9 @@ Rename the project name defined in `project/Build.scala` as you like.
 
 ### ToDo
 
-- Add more examples.
+- 計算記(GUI) をつくる。
+- 数式表Ｋ(コマンドライン)をつくる。
+- 他言語実装 (node.js, ruby ...) をつくる。
+
+
 
