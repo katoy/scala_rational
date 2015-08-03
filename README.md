@@ -17,7 +17,7 @@ This is a rational library for scala.
 
 例： 0.33333...   -> 0.{3}
 
-scala コード中では次のようなに記述します。
+scala コード中では次のように記述します。
 - Rational(n)    -> 整数のｎと同等です。 (n は整数)
 - Rational(n, m) -> 分数 n / m と藤堂です。 (ｎは整数、 m は 0 以外の整数)
 - Rational("0.3") -> 小数 0.3 と同等です。
@@ -40,7 +40,7 @@ src/main/scala/Main.scala や src/test/scala/RationalTest.scala  を参照して
 ### Contents
 
 scala-rational project includes:
-- Sample Scala 
+- Sample Scala
 - [ScalaTest](http://www.scalatest.org/) examples
 - Pre-configured settings for developing with IntelliJ IDE
 - A command for packaging projects with [sbt-pack](http://github.com/xerial/sbt-pack) plugin.
@@ -98,8 +98,8 @@ Rename the project name defined in `project/Build.scala` as you like.
 
 ### ToDo
 
-- 計算記(GUI) をつくる。
-- 数式表Ｋ(コマンドライン)をつくる。
+- 計算器 (GUI) をつくる。
+- 数式表記 (コマンドライン) をつくる。
 - 他言語実装 (node.js, ruby ...) をつくる。
 
 
