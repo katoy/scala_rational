@@ -15,7 +15,7 @@ object Build extends sbt.Build {
         // Mapping from program name -> Main class
         packMain := Map("rational" -> "rational.Main"),
         // custom settings here
-        scalaVersion := "2.10.0",
+        scalaVersion := "2.11.7",
         crossPaths := false,
         libraryDependencies ++= Seq(
           // Add dependent jars here

@@ -1,11 +1,11 @@
-addSbtPlugin("org.xerial.sbt" % "sbt-pack" % "0.1.4")
+addSbtPlugin("org.xerial.sbt" % "sbt-pack" % "0.7.5")
 
-addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.2.0")
+addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
 
-addSbtPlugin("com.github.gseitz" % "sbt-release" % "0.6")
+addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.0")
 
 resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven"
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.5.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.5.2")
 
 
