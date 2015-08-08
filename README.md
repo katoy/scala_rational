@@ -1,6 +1,6 @@
 
 
-travix : [![Build Status](https://travis-ci.org/katoy/scala_rational.png?branch=master)](https://travis-ci.org/katoy/scala_rational)
+travis : [![Build Status](https://travis-ci.org/katoy/scala_rational.png?branch=master)](https://travis-ci.org/katoy/scala_rational)
 
 scala-rational
 ==============
