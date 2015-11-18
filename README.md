@@ -19,7 +19,7 @@ This is a rational library for scala.
 
 scala コード中では次のように記述します。
 - Rational(n)    -> 整数のｎと同等です。 (n は整数)
-- Rational(n, m) -> 分数 n / m と藤堂です。 (ｎは整数、 m は 0 以外の整数)
+- Rational(n, m) -> 分数 n / m と同等です。 (ｎは整数、 m は 0 以外の整数)
 - Rational("0.3") -> 小数 0.3 と同等です。
 - Rational("0.{3}") -> 循環小数 0.33333... と同等です。
 - Rational(1,3) と Rational("0.{3}") は同等です。
